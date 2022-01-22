@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Barcode scanner in preact",
   "main": "src/index.tsx",
-  "types": "dist/index.d.ts",
+  "types": "index.d.ts",
   "scripts": {
     "build": "rollup --config ./rollup.config.js",
     "decl": "tsc --build tsconfig.json",
@@ -27,7 +27,7 @@
   "dependencies": {
     "@zxing/browser": "^0.0.10",
     "@zxing/library": "^0.19.1",
-    "preact": "^10.6.4",
+    "preact": "^10.6.4"
   },
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^13.1.3",
