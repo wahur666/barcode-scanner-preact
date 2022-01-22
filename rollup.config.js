@@ -9,11 +9,13 @@ const config = {
     input: "src/index.tsx",
     output: [{
         file: "dist/index.js",
-        format: "esm"
+        format: "esm",
+        sourcemap: true
     },{
         file: "dist/index.min.js",
         format: "esm",
         compact: true,
+        sourcemap: true,
         plugins: [terser()]
     }],
     external: [

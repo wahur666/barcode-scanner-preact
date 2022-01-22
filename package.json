@@ -2,7 +2,7 @@
   "name": "barcode-scanner-preact",
   "version": "1.0.0",
   "description": "Barcode scanner in preact",
-  "main": "src/index.tsx",
+  "main": "dist/index.min.js",
   "types": "index.d.ts",
   "scripts": {
     "build": "rollup --config ./rollup.config.js",
