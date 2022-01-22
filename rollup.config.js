@@ -20,7 +20,9 @@ const config = {
     }],
     external: [
     ],
-    plugins: [typescript(), nodeResolve()]
+    plugins: [typescript({
+        sourceMap: false
+    }), nodeResolve()]
 }
 
 export default config;
